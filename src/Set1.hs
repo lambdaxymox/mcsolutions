@@ -3,7 +3,24 @@
 
 module MonadChallenges.Set1
     (
-        
+        Functor(..),
+        Applicative(..),
+        Monad(..),
+        liftPair,
+        liftA,
+        liftA2,
+        Gen(..).
+        sequenceGen,
+        repRandom,
+        nRands,
+        randInteger,
+        randLetter,
+        randString,
+        fiveRands,
+        randEven,
+        randOdd,
+        randTens
+        randPair
     )
     where
 
@@ -90,7 +107,7 @@ nRands n = sequenceGen $ take (fromIntegral n) (iterate step randInteger)
         step :: Gen Integer -> Gen Integer
         step = liftA id
 
--- | Use a ByteString here instead of a String
+-- | Use a ByteString here instead of a String?
 letters :: String
 letters = "abcdefghijklmnopqrstuvwxyz"
 

@@ -3,7 +3,31 @@
 
 module MonadChallenges.Set2
     (
-
+        Functor(..),
+        Applicative(..),
+        Monad(..),
+        liftPair,
+        liftA,
+        liftA2,
+        Maybe(..),
+        mkMaybe,
+        headMay,
+        tailMay,
+        lookupMay,
+        divMay,
+        maximumMay,
+        minimumMay,
+        queryGreek,
+        chain,
+        link,
+        queryGreek2,
+        yLink,
+        addSalaries,
+        tailProd,
+        tailSum,
+        tailMax,
+        tailMin,
+        combine
     )
     where
 

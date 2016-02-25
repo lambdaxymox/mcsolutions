@@ -1,7 +1,45 @@
 {-# LANGUAGE MonadComprehensions #-}
 {-# LANGUAGE RebindableSyntax  #-}
 
-module Set4 where
+module MonadChallenges.Set4 
+    (
+        Functor(..),
+        Applicative(..),
+        Monad(..),
+        (<$>),
+        (=<<),
+        liftPair,
+        liftA,
+        liftA2,
+        liftM,
+        liftM2,
+        Gen(..),
+        sequence,
+        join,
+        nRands,
+        randIntegers,
+        randInteger,
+        randLetter,
+        randString,
+        fiveRands,
+        randEven,
+        randOdd,
+        randTen,
+        randPair,
+        Maybe(..),
+        headMay,
+        tailMay,
+        lookupMay,
+        divMay,
+        maximumMay,
+        minimumMay,
+        queryGreek2,
+        tailProd,
+        tailSum,
+        tailMax,
+        tailMin
+    )
+    where
 
 import MCPrelude
 
