@@ -5,15 +5,15 @@
 module MonadChallenges
     (
         module MCPrelude,
-        module MonadChallenges.Set1,
-        module MonadChallenges.Set2,
-        module MonadChallenges.Set3,
-        module MonadChallenges.Set4,
+        module Set1,
+        module Set2,
+        module Set3,
+        module Set4,
     )
     where
 
-import MonadChallenges.Set1
-import MonadChallenges.Set2
-import MonadChallenges.Set3
-import MonadChallenges.Set4
+import qualified MonadChallenges.Set1 as Set1
+import qualified MonadChallenges.Set2 as Set2
+import qualified MonadChallenges.Set3 as Set3
+import qualified MonadChallenges.Set4 as Set4
 import MCPrelude

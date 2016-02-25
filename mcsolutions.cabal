@@ -13,7 +13,11 @@ build-type:          Simple
 cabal-version:       >=1.10
 
 library
-  exposed-modules:     Set2, Set1, Set4, MCPrelude
+  exposed-modules:     MCPrelude
+                       MonadChallenges.Set1
+                       MonadChallenges.Set2
+                       MonadChallenges.Set3
+                       MonadChallenges.Set4
   -- other-modules:       
   other-extensions:    MonadComprehensions, RebindableSyntax, Trustworthy, CPP, NoImplicitPrelude, BangPatterns
   build-depends:       base >=4 && <5

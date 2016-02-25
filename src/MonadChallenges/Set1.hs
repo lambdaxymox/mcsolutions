@@ -9,7 +9,7 @@ module MonadChallenges.Set1
         liftPair,
         liftA,
         liftA2,
-        Gen(..).
+        Gen(..),
         sequenceGen,
         repRandom,
         nRands,
@@ -19,8 +19,8 @@ module MonadChallenges.Set1
         fiveRands,
         randEven,
         randOdd,
-        randTens
-        randPair
+        randTen,
+        randPair,
     )
     where
 
