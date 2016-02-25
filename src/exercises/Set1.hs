@@ -1,7 +1,11 @@
 {-# LANGUAGE MonadComprehensions #-}
 {-# LANGUAGE RebindableSyntax  #-}
 
-module Set1 where
+module MonadChallenges.Set1
+    (
+        
+    )
+    where
 
 import MCPrelude
 
